@@ -25,24 +25,28 @@
         <form>
             <div>
                 <h2>Daftar Akaun</h2>
-                <label for="nama">Nama:</label><br>             
-                <input type="text" id="nama" name="nama" required><br><br>
+                     
+                <input class="lolo" type="text" id="nama" name="nama" required placeholder="Nama Depan*">      
+                <input class="lolo" type="text" id="nama" name="nama" required placeholder="Nama Belakang*"><br><br>
 
-                <label for="email">Emel:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" required placeholder="Emel*"><br><br>
+                
+                <input type="tel" id="noTel" name="noTel" required placeholder="No. Telefon*"><br><br>
 
-                <label for="noTel">No. Telefon:</label><br>
-                <input type="tel" id="noTel" name="noTel" required><br><br>
+                <input type="number" id="noNdp" name="noNdp" required placeholder="No. Daftar Pelajar*" min="0"><br><br>
 
-
-                <label for="kataLaluan">Kata Laluan:</label><br>
-                <input type="password" id="kataLaluan" name="kataLaluan" required><br>
+                <input type="password" id="kataLaluan" name="kataLaluan" required placeholder="Kata Laluan*"><br>
+                <br>
+                <button type="submit">Daftar</button>
+                <button type="reset">Batal</button>
             </div>
         </form>
+            <p>Jika belum memiliki akaun, <a href="login.html">log masuk</a> ke sini.</p>
+            <p>Dengan mendaftar, anda bersetuju dengan <a href="#">Terma & Syarat</a> kami.</p>
+
     </main><br>
-    <a class="button-kekal" href="#pengenalan">Atas ↑</a>
-    <footer class="footer" id="footer">
-        <p>&copy; 2024 SportWearz. Hak cipta terpelihara.</p>
+    <footer class="footer">
+        <p>&copy; 2024 SportWearz. Hak cipta terpelihara | Adtec JTM Kampus Kuala Langat.</p>
     </footer>
 </body>
 </html>
