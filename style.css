@@ -1,0 +1,81 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: coral;
+    margin: 0%;
+    padding: 0%;
+    line-height: normal;
+}
+.header-navO {
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+    color: whitesmoke;
+    background-color: lightsalmon;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid coral;
+}
+.logo {
+    top: 0%;
+    right: 0;
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: auto;
+}
+.div1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+ 
+}
+.div1 a {
+    color: coral;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.div2 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+ 
+}
+.div2 a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+.banner-container {
+    position: relative; 
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
